@@ -1,0 +1,53 @@
+<html>
+<head>
+    <meta http-equiv="Content-Script-Type" content="charset=UTF-8">
+    <link rel="stylesheet" href="../css/popup.css" type="text/css"/>
+
+    <script type="text/javascript" src="../js/jquery.js"></script>
+    <script type="text/javascript" src="../js/popup.js"></script>
+</head>
+<body>
+<div id="title">WhiteList Accessor</div>
+<div id="container">
+    <table border="1" cellpadding="1" cellspacing="0">
+        <tr>
+            <td id="currentwebsite">Current Domain :</td>
+            <td id="currenttype">Accessing type :</td>
+        </tr>
+        <tr>
+            <td id="locatos">Local OS :</td>
+            <td id="appstate">Running State :</td>
+        </tr>
+        <!--<tr>
+            <td id="thirds"></td>
+        </tr>-->
+    </table>
+</div>
+
+<div id="appspadding"></div>
+
+<div width="300">Default AccessList Address :<span id="accesslist"></span></div>
+<div>
+    <span>Reset AccessList Address : </span><input type="text" id="serverurl">
+    <button id="getServlist">Get ServerAccessList</button>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <th id="blockeditems">Blocked Items</th>
+        </tr>
+        <tr>
+            <td id="items"></td>
+        </tr>
+        <tr>
+            <td id="thirds"></td>
+        </tr>
+    </table>
+</div>
+<button id="test">test</button>
+<button id="controler">ChangeStatus</button>
+<button id="closewindow">CloseWindow</button>
+<button id="settings">Setting</button>
+</body>
+</html>

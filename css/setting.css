@@ -1,0 +1,61 @@
+#container{
+    position: absolute;
+    z-index: 1014;
+    width: 700px;
+    text-align: center;
+}
+#appspadding {
+    height: 10px;
+}
+
+table {
+    border-spacing: 0px;
+}
+
+#syswhitelisttitle {
+    width: 300px;
+    vertical-align: top;
+    text-align: center;
+    font-size: 12px;
+    font-family: arial, sans-serif;
+    font-weight: bold;
+    background: #99CC66;
+}
+
+#sysblacklisttitle {
+    width: 300px;
+    vertical-align: top;
+    text-align: center;
+    font-size: 12px;
+    font-family: arial, sans-serif;
+    font-weight: bold;
+    background: #FF6666;
+}
+
+#defaultwhitelist,#defaultblacklist {
+    width: 300px;
+    vertical-align: top;
+    text-align: left;
+    font-size: 10px;
+    font-family: arial, sans-serif;
+}
+
+#servwhitelisttitle {
+    width: 300px;
+    vertical-align: top;
+    text-align: center;
+    font-size: 12px;
+    font-family: arial, sans-serif;
+    font-weight: bold;
+    background: #99CC66;
+}
+
+#servblacklisttitle {
+    width: 300px;
+    vertical-align: top;
+    text-align: center;
+    font-size: 12px;
+    font-family: arial, sans-serif;
+    font-weight: bold;
+    background: #FF6666;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Script-Type" content="charset=UTF-8">
+    <link rel="stylesheet" href="../css/popup.css" type="text/css"/>
+
+    <title>Web Access Apps Setting...</title>
+
+    <script type="text/javascript" src="../js/jquery.js"></script>
+    <script type="text/javascript" src="../js/setting.js"></script>
+</head>
+<body>
+<div id="container">
+    <div id="systemaccesslist">
+        <table>
+            <tr>
+                <th id="syswhitelisttitle">System WhiteList</th>
+                <th id="sysblacklisttitle">System BlackList</th>
+            </tr>
+            <tr>
+                <td>
+                    <table id="defaultwhitelist"></table>
+                </td>
+                <td>
+                    <table id="defaultblacklist"></table>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div id="appspadding"></div>
+    <div id="customaccesslist">
+        <table>
+            <tr>
+                <th id="servwhitelisttitle">Server WhiteList</th>
+                <th id="servblacklisttitle">Server BlackList</th>
+            </tr>
+            <tr>
+                <td>
+                    <table id="customwhitelist"></table>
+                </td>
+                <td>
+                    <table id="customblakclist"></table>
+                </td>
+            </tr>
+        </table>
+    </div>
+</div>
+</body>
+</html>
