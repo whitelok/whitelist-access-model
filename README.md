@@ -3,3 +3,15 @@
 
 #描述
 [原理 http://blog.csdn.net/guodongxiaren](http://www.scientific.net/AMM.519-520.373)
+
+```latex
+@inproceedings{tang2014uofilter,
+  title={UOFilter: A Whitelist-Based Filter for Unintended Objects in Web Pages},
+  author={Tang, Yi and Luo, Zhao Kai and Zhang, Ji},
+  booktitle={Applied Mechanics and Materials},
+  volume={519},
+  pages={373--376},
+  year={2014},
+  organization={Trans Tech Publ}
+}
+```
